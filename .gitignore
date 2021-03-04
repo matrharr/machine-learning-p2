@@ -1,1 +1,2 @@
-env/
+/env
+algos/__pycache__
