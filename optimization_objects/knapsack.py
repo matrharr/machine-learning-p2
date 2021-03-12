@@ -1,7 +1,7 @@
 import mlrose_hiive as mlrose
 import numpy as np
 
-def get_knapsack():
+def get_knapsack(size):
     weights = [10, 5, 2, 8, 15]
     values = [1, 2, 3, 4, 5]
     max_weight_pct = 0.6
@@ -9,7 +9,7 @@ def get_knapsack():
     state = np.array([1, 0, 2, 1, 0])
     knapsack.evaluate(state)
     problem = mlrose.DiscreteOpt(
-        length=5,
+        length=size,
         fitness_fn=knapsack,
         maximize=True,
         max_val=2 # makes it bit string

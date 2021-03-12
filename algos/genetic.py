@@ -1,13 +1,13 @@
 import mlrose_hiive as mlrose
 import numpy as np 
 
-def get_genetic(problem):
+def get_genetic(problem, pop_size=200, mutation_prob=0.1):
     
     best_state, best_fitness, fitness_curve = mlrose.genetic_alg(
         problem,
-        pop_size=200,
-        mutation_prob=0.1,
-        max_attempts=10,
+        pop_size=pop_size,
+        mutation_prob=mutation_prob,
+        max_attempts=100,
         max_iters=np.inf,
         curve=True,
         random_state=23

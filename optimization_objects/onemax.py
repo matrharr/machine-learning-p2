@@ -3,12 +3,12 @@ import mlrose_hiive as mlrose
 import numpy as np
 
 
-def get_one_max():
+def get_one_max(size):
     one_max = mlrose.OneMax()
     state = np.array([0,1,0,1,1,1,1])
     one_max.evaluate(state)
     problem = mlrose.DiscreteOpt(
-        length=10,
+        length=size,
         fitness_fn=one_max,
         maximize=True,
         max_val=2 # makes it bit string

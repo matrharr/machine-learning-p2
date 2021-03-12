@@ -1,0 +1,123 @@
+Bankruptcy
+
+Selected Columns:  Index([' Net Value Growth Rate', ' Fixed Assets Turnover Frequency',
+       ' Revenue per person', ' Cash/Current Liability',
+       ' Fixed Assets to Assets'],
+      dtype='object')
+--------------New Algo  random_hill_climb ----------------------
+Fitting model...
+Training Score:  0.19170333123821495
+Testing Score:  0.19452590420332355
+mse:  0.8054740957966764
+mse:  0.8054740957966764
+rmse:  0.8974820866160373
+confusion matrix:  [[ 342 1638]
+ [  10   56]]
+cross validation score:  [0.76906158 0.77492669 0.74633431 0.85043988 0.90829054]
+cross validation mean:  0.809810599785276
+cross validation std:  0.06042457346053299
+cross validation rmse:  [nan nan nan nan nan]
+precision score:  0.03305785123966942
+recall score:  0.8484848484848485
+accuracy score:  0.19452590420332355
+f1 score:  0.06363636363636364
+roc auc score:  0.5106060606060606
+--------------New Algo  simulated_annealing ----------------------
+Fitting model...
+Training Score:  0.19170333123821495
+Testing Score:  0.19452590420332355
+mse:  0.8054740957966764
+mse:  0.8054740957966764
+rmse:  0.8974820866160373
+confusion matrix:  [[ 342 1638]
+ [  10   56]]
+cross validation score:  [0.76906158 0.77492669 0.74633431 0.85043988 0.90829054]
+cross validation mean:  0.809810599785276
+cross validation std:  0.06042457346053299
+cross validation rmse:  [nan nan nan nan nan]
+precision score:  0.03305785123966942
+recall score:  0.8484848484848485
+accuracy score:  0.19452590420332355
+f1 score:  0.06363636363636364
+roc auc score:  0.5106060606060606
+--------------New Algo  genetic_alg ----------------------
+Fitting model...
+Training Score:  0.9677351770375027
+Testing Score:  0.967741935483871
+mse:  0.03225806451612903
+mse:  0.03225806451612903
+rmse:  0.1796053020267749
+confusion matrix:  [[1980    0]
+ [  66    0]]
+cross validation score:  [0.96774194 0.9670088  0.96774194 0.96774194 0.96771827]
+cross validation mean:  0.9675905745261767
+cross validation std:  0.00029103281773881453
+cross validation rmse:  [nan nan nan nan nan]
+precision score:  0.0
+recall score:  0.0
+accuracy score:  0.967741935483871
+f1 score:  0.0
+roc auc score:  0.5
+
+
+
+
+
+Brain Tumor
+
+
+Selected Columns:  Index(['Class', 'Variance', 'Skewness', 'Kurtosis', 'Contrast'], dtype='object')
+--------------New Algo  random_hill_climb ----------------------
+Fitting model...
+Training Score:  0.45917204709456894
+Testing Score:  0.4641275465013286
+mse:  0.5358724534986714
+mse:  0.5358724534986714
+rmse:  0.7320330959039156
+confusion matrix:  [[320 304]
+ [301 204]]
+cross validation score:  [0.4435591  0.44621514 0.44547872 0.44680851 0.44680851]
+cross validation mean:  0.4457739962137266
+cross validation std:  0.0012106206951415165
+cross validation rmse:  [nan nan nan nan nan]
+precision score:  0.4015748031496063
+recall score:  0.403960396039604
+accuracy score:  0.4641275465013286
+f1 score:  0.4027640671273445
+roc auc score:  0.4583904544300583
+--------------New Algo  simulated_annealing ----------------------
+Fitting model...
+Training Score:  0.45917204709456894
+Testing Score:  0.4641275465013286
+mse:  0.5358724534986714
+mse:  0.5358724534986714
+rmse:  0.7320330959039156
+confusion matrix:  [[320 304]
+ [301 204]]
+cross validation score:  [0.4435591  0.44621514 0.44547872 0.44680851 0.44680851]
+cross validation mean:  0.4457739962137266
+cross validation std:  0.0012106206951415165
+cross validation rmse:  [nan nan nan nan nan]
+precision score:  0.4015748031496063
+recall score:  0.403960396039604
+accuracy score:  0.4641275465013286
+f1 score:  0.4027640671273445
+roc auc score:  0.4583904544300583
+--------------New Algo  genetic_alg ----------------------
+Fitting model...
+Training Score:  0.9753133308013673
+Testing Score:  0.9822852081488043
+mse:  0.01771479185119575
+mse:  0.01771479185119575
+rmse:  0.13309692652798466
+confusion matrix:  [[619   5]
+ [ 15 490]]
+cross validation score:  [0.48074369 0.54847278 0.69148936 0.62632979 0.59840426]
+cross validation mean:  0.5890879743437597
+cross validation std:  0.07120093786155705
+cross validation rmse:  [nan nan nan nan nan]
+precision score:  0.98989898989899
+recall score:  0.9702970297029703
+accuracy score:  0.9822852081488043
+f1 score:  0.98
+roc auc score:  0.9811421045950749

@@ -1,0 +1,1382 @@
+##################### very long results of opt probs (untuned)
+
+{'one max': {'hill_climb': {'iterations': [169, 189, 301, 598, 589, 813, 1039], 'time_taken': [0.0046651363372802734, 0.003319978713989258, 0.00515294075012207, 0.010682106018066406, 0.010458946228027344, 0.01537013053894043, 0.024040937423706055]}, 'genetic': {'iterations': [111, 122, 129, 133, 142, 158, 176], 'time_taken': [2.347728729248047, 1.6244831085205078, 1.682682752609253, 1.8427958488464355, 2.260136127471924, 2.728377103805542, 5.552441835403442]}, 'mimic': {'iterations': [104, 106, 109, 111, 113, 118, 125], 'time_taken': [24.830866813659668, 95.9340181350708, 220.29555702209473, 399.6081941127777, 983.8077597618103, 1795.2578098773956, 4369.8209228515625]}, 'sim_ann': {'iterations': [274, 282, 391, 480, 635, 730, 1108], 'time_taken': [0.010053873062133789, 0.006964921951293945, 0.00956106185913086, 0.011279106140136719, 0.015175819396972656, 0.017379045486450195, 0.03631114959716797]}}, 'four peaks': {'hill_climb': {'iterations': [393, 215, 448, 328, 235, 330, 109], 'time_taken': [0.005849123001098633, 0.0026559829711914062, 0.006880044937133789, 0.004302024841308594, 0.0032749176025390625, 0.004537105560302734, 0.0017740726470947266]}, 'genetic': {'iterations': [119, 223, 272, 456, 1099, 932, 889], 'time_taken': [1.4068939685821533, 2.9568779468536377, 3.939979076385498, 7.299914121627808, 21.12380576133728, 19.224353075027466, 27.14580202102661]}, 'mimic': {'iterations': [106, 119, 112, 128, 109, 116, 116], 'time_taken': [25.59890103340149, 108.79062294960022, 229.9928629398346, 468.631294965744, 923.4184889793396, 1713.8820600509644, 4366.488687992096]}, 'sim_ann': {'iterations': [361, 1226, 1998, 4283, 9622, 15931, 43189], 'time_taken': [0.00834202766418457, 0.03445911407470703, 0.055184125900268555, 0.13611388206481934, 0.32173895835876465, 0.5858490467071533, 3.4811198711395264]}}, 'six peaks': {'hill_climb': {'iterations': [393, 215, 448, 328, 235, 330, 109], 'time_taken': [0.006621122360229492, 0.0035181045532226562, 0.009845972061157227, 0.004709959030151367, 0.0033769607543945312, 0.004918098449707031, 0.0017616748809814453]}, 'genetic': {'iterations': [130, 223, 272, 456, 1099, 932, 889], 'time_taken': [1.5492050647735596, 3.0072948932647705, 4.028356075286865, 7.41225004196167, 21.583283185958862, 19.365147829055786, 19.998619079589844]}, 'mimic': {'iterations': [105, 119, 112, 128, 109, 116, 116], 'time_taken': [23.938962936401367, 107.97637605667114, 230.36753702163696, 474.3756821155548, 908.9083409309387, 1728.240888118744, 4443.660748004913]}, 'sim_ann': {'iterations': [361, 1226, 1998, 4283, 9622, 15931, 43189], 'time_taken': [0.008486032485961914, 0.035083770751953125, 0.05660700798034668, 0.1604630947113037, 0.3496561050415039, 0.6379058361053467, 3.03920316696167]}}, 'continuous peaks': {'hill_climb': {'iterations': [174, 190, 448, 203, 285, 110, 153], 'time_taken': [0.005392789840698242, 0.006151914596557617, 0.023354053497314453, 0.010776996612548828, 0.0211179256439209, 0.010154962539672852, 0.02338099479675293]}, 'genetic': {'iterations': [157, 564, 281, 250, 578, 1201, 2038], 'time_taken': [2.0116629600524902, 8.615189790725708, 5.065500259399414, 5.262140989303589, 15.507970809936523, 38.38492703437805, 89.61946415901184]}, 'mimic': {'iterations': [102, 110, 112, 111, 115, 117, 125], 'time_taken': [23.417689085006714, 100.45185708999634, 227.8888623714447, 418.9428901672363, 942.5130560398102, 1816.800206899643, 4151.426331043243]}, 'sim_ann': {'iterations': [361, 1734, 1959, 2737, 5907, 12012, 42572], 'time_taken': [0.01143026351928711, 0.07973670959472656, 0.11815905570983887, 0.20416998863220215, 0.5980892181396484, 1.5383937358856201, 7.974671840667725]}}, 'flip flop': {'hill_climb': {'iterations': [124, 189, 246, 274, 356, 401, 293], 'time_taken': [0.008032083511352539, 0.024693965911865234, 0.044145822525024414, 0.06193184852600098, 0.14157891273498535, 0.17571306228637695, 0.2028639316558838]}, 'genetic': {'iterations': [115, 144, 144, 159, 186, 171, 250], 'time_taken': [2.317138195037842, 4.456252813339233, 5.951124906539917, 8.366091012954712, 13.85428786277771, 16.364274740219116, 35.79612374305725]}, 'mimic': {'iterations': [105, 113, 110, 111, 120, 118, 121], 'time_taken': [25.0326931476593, 104.97012686729431, 226.06977891921997, 409.1273920536041, 986.5171239376068, 1941.1873281002045, 4018.9165530204773]}, 'sim_ann': {'iterations': [1321, 1755, 6801, 6240, 13946, 29799, 30289], 'time_taken': [0.09732508659362793, 0.22704625129699707, 1.182969093322754, 1.4284169673919678, 4.811532974243164, 17.391016244888306, 20.13586926460266]}}, 'input_sizes': [25, 50, 75, 100, 150, 200, 300]}
+
+
+
+
+############## mimic keep pct options
+(env) ➜  project-2 git:(master) ✗ python3 mimic_perf.py
+####################################### New input size  25  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.1
+execution time taken:  3.7669622898101807
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  25.0
+number of iterations:  12
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.5
+execution time taken:  4.0539870262146
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  25.0
+number of iterations:  17
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.9
+execution time taken:  5.059068918228149
+best state:  [0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1]
+best fitness:  23.0
+number of iterations:  21
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  25
+Option:  0.1
+execution time taken:  3.4462218284606934
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 0 0 0 0]
+best fitness:  40.0
+number of iterations:  14
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  25
+Option:  0.5
+execution time taken:  4.9681479930877686
+best state:  [1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  35.0
+number of iterations:  16
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  25
+Option:  0.9
+execution time taken:  2.5752158164978027
+best state:  [1 1 1 1 1 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0]
+best fitness:  33.0
+number of iterations:  11
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  25
+Option:  0.1
+execution time taken:  2.9503400325775146
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 0 0 0 0]
+best fitness:  43.0
+number of iterations:  13
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  25
+Option:  0.5
+execution time taken:  3.5049588680267334
+best state:  [1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 0 0 0 0]
+best fitness:  35.0
+number of iterations:  15
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  25
+Option:  0.9
+execution time taken:  2.5413403511047363
+best state:  [1 1 1 1 1 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0]
+best fitness:  33.0
+number of iterations:  11
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  25
+Option:  0.1
+execution time taken:  3.6548447608947754
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1]
+best fitness:  44.0
+number of iterations:  16
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  25
+Option:  0.5
+execution time taken:  3.915557861328125
+best state:  [0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  43.0
+number of iterations:  17
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  25
+Option:  0.9
+execution time taken:  5.018907308578491
+best state:  [1 1 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  37.0
+number of iterations:  20
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  25
+Option:  0.1
+execution time taken:  3.4206557273864746
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0]
+best fitness:  23.0
+number of iterations:  14
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  25
+Option:  0.5
+execution time taken:  5.155511856079102
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  24.0
+number of iterations:  20
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  25
+Option:  0.9
+execution time taken:  3.0906429290771484
+best state:  [1 0 1 0 1 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0]
+best fitness:  21.0
+number of iterations:  13
+####################################### New input size  50  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  50
+Option:  0.1
+execution time taken:  13.432950019836426
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  50.0
+number of iterations:  15
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  50
+Option:  0.5
+execution time taken:  17.907306432724
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  50.0
+number of iterations:  20
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  50
+Option:  0.9
+execution time taken:  44.69477820396423
+best state:  [1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  49.0
+number of iterations:  49
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  50
+Option:  0.1
+execution time taken:  13.280766010284424
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 0
+ 0 1 1 0 0 0 0 0 0 0 0 0 0]
+best fitness:  77.0
+number of iterations:  15
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  50
+Option:  0.5
+execution time taken:  24.02988886833191
+best state:  [1 1 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 1 0 0 1 0 0 1 1 1 1 1 1 1 1 0 0 1
+ 1 1 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  61.0
+number of iterations:  26
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  50
+Option:  0.9
+execution time taken:  12.696483850479126
+best state:  [0 0 1 0 0 0 0 1 1 0 0 1 0 0 1 0 1 1 0 1 1 0 1 1 0 1 0 0 1 1 1 0 0 0 1 1 1
+ 0 1 1 0 0 0 0 0 0 0 0 0 0]
+best fitness:  10.0
+number of iterations:  13
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  50
+Option:  0.1
+execution time taken:  13.377042055130005
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 0
+ 0 1 1 0 0 0 0 0 0 0 0 0 0]
+best fitness:  77.0
+number of iterations:  15
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  50
+Option:  0.5
+execution time taken:  23.85796618461609
+best state:  [1 1 1 1 1 1 0 0 0 1 0 1 1 1 0 1 1 0 0 0 1 0 0 1 0 0 1 1 1 1 1 1 1 1 0 0 1
+ 1 1 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  61.0
+number of iterations:  26
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  50
+Option:  0.9
+execution time taken:  11.886739015579224
+best state:  [0 0 0 0 0 0 1 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 0 1 1 0 0 0 1 1 0 1 1
+ 0 0 0 0 1 0 1 1 1 1 1 1 1]
+best fitness:  50.0
+number of iterations:  13
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  50
+Option:  0.1
+execution time taken:  11.769879817962646
+best state:  [1 0 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 1 1 1 0 0 1 0 0 0 1 0 1 1]
+best fitness:  64.0
+number of iterations:  13
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  50
+Option:  0.5
+execution time taken:  27.29568886756897
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 0 0
+ 1 0 0 1 1 0 1 1 1 1 1 0 1]
+best fitness:  69.0
+number of iterations:  30
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  50
+Option:  0.9
+execution time taken:  11.92090106010437
+best state:  [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 1 0 0 1 0 0 0 0 0 1 0 0 1 1
+ 1 0 1 1 1 1 1 1 1 1 1 0 1]
+best fitness:  65.0
+number of iterations:  13
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  50
+Option:  0.1
+execution time taken:  14.604231834411621
+best state:  [0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 1 1 0
+ 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  43.0
+number of iterations:  16
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  50
+Option:  0.5
+execution time taken:  24.733121871948242
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0
+ 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  48.0
+number of iterations:  27
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  50
+Option:  0.9
+execution time taken:  13.945217609405518
+best state:  [1 1 0 0 1 0 0 1 1 0 1 0 1 0 1 0 0 1 0 1 1 0 1 1 1 0 0 1 0 1 0 1 0 1 0 1 1
+ 0 1 0 1 1 1 0 1 0 1 0 1 0]
+best fitness:  37.0
+number of iterations:  15
+####################################### New input size  75  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  75
+Option:  0.1
+execution time taken:  33.85162878036499
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  75.0
+number of iterations:  17
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  75
+Option:  0.5
+execution time taken:  52.24563121795654
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  75.0
+number of iterations:  26
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  75
+Option:  0.9
+execution time taken:  153.85644507408142
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  73.0
+number of iterations:  75
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  75
+Option:  0.1
+execution time taken:  32.11305809020996
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 0 1 0 1 0
+ 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  94.0
+number of iterations:  16
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  75
+Option:  0.5
+execution time taken:  45.0932092666626
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 0 1 1 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0
+ 0 0 0 1 0 0 1 1 0 1 1 1 1 0 1 0 1 0 0 1 1 0 0 0 1 0 1 1 1 1 0 1 1 1 0 0 1
+ 0]
+best fitness:  14.0
+number of iterations:  22
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  75
+Option:  0.9
+execution time taken:  22.707023859024048
+best state:  [1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 0 1 1 0 0 0 0 0 1 1 0 0 1 0 1 1 1 1 1 0 0 1
+ 1 1 1 1 1 0 1 0 0 0 0 1 0 1 1 0 0 1 0 1 1 1 1 0 0 0 0 1 0 1 0 1 0 1 0 1 0
+ 0]
+best fitness:  10.0
+number of iterations:  11
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  75
+Option:  0.1
+execution time taken:  32.14871907234192
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 0 1 0 1 0
+ 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  94.0
+number of iterations:  16
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  75
+Option:  0.5
+execution time taken:  45.439526081085205
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 0 1 1 1 0 0 0 1 0 0 0 0 0 1 0 1 1 0
+ 0 0 0 1 0 0 1 1 0 1 1 1 1 0 1 0 1 0 0 1 1 0 0 0 1 0 1 1 1 1 0 1 1 1 0 0 1
+ 0]
+best fitness:  14.0
+number of iterations:  22
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  75
+Option:  0.9
+execution time taken:  22.713064908981323
+best state:  [1 1 1 1 1 1 1 1 1 1 0 0 1 0 0 0 1 1 0 0 0 0 0 1 1 0 0 1 0 1 1 1 1 1 0 0 1
+ 1 1 1 1 1 0 1 0 0 0 0 1 0 1 1 0 0 1 0 1 1 1 1 0 0 0 0 1 0 1 0 1 0 1 0 1 0
+ 0]
+best fitness:  10.0
+number of iterations:  11
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  75
+Option:  0.1
+execution time taken:  32.5120849609375
+best state:  [0 1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 1 0 0 0
+ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  112.0
+number of iterations:  16
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  75
+Option:  0.5
+execution time taken:  48.94344997406006
+best state:  [0 0 0 1 0 0 1 1 0 1 1 0 1 0 0 1 0 1 0 0 0 0 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0
+ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 0 1 0 1 0
+ 0]
+best fitness:  101.0
+number of iterations:  24
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  75
+Option:  0.9
+execution time taken:  22.723171949386597
+best state:  [0 1 0 0 0 0 1 0 0 1 0 0 1 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1
+ 0 1 0 1 1 1 1 1 1 0 0 0 1 0 1 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1
+ 1]
+best fitness:  87.0
+number of iterations:  11
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  75
+Option:  0.1
+execution time taken:  47.16223621368408
+best state:  [0 1 0 1 1 0 1 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0
+ 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 0 1
+ 1]
+best fitness:  63.0
+number of iterations:  23
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  75
+Option:  0.5
+execution time taken:  63.53093671798706
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0
+ 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1
+ 0]
+best fitness:  69.0
+number of iterations:  31
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  75
+Option:  0.9
+execution time taken:  37.54066491127014
+best state:  [1 0 1 0 1 1 1 0 1 0 0 1 1 1 0 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1
+ 0 1 1 1 1 0 1 0 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 0 1 0 0 1 0 1 1 0 0 1 0 1 0
+ 1]
+best fitness:  54.0
+number of iterations:  18
+####################################### New input size  100  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  100
+Option:  0.1
+execution time taken:  60.267569065093994
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1]
+best fitness:  97.0
+number of iterations:  17
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  100
+Option:  0.5
+execution time taken:  100.2662148475647
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  100.0
+number of iterations:  28
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  100
+Option:  0.9
+execution time taken:  303.29679822921753
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  97.0
+number of iterations:  83
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  100
+Option:  0.1
+execution time taken:  75.20909285545349
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 0 1 0 1 0 1 0 0
+ 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 1 1 0 1 0 1 1 1 0
+ 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  124.0
+number of iterations:  21
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  100
+Option:  0.5
+execution time taken:  47.04503297805786
+best state:  [1 1 1 0 0 0 1 0 0 1 1 0 1 1 0 0 1 0 0 1 0 0 1 1 1 0 1 1 1 0 1 1 0 1 0 1 1
+ 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 1 1
+ 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  21.0
+number of iterations:  13
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  100
+Option:  0.9
+execution time taken:  43.88672113418579
+best state:  [1 0 1 0 0 0 1 0 0 0 1 0 0 1 0 1 1 0 0 1 1 0 0 0 0 1 1 1 0 1 0 1 1 0 1 0 1
+ 0 1 1 0 0 1 0 0 1 1 0 1 1 0 0 0 1 1 1 0 1 1 0 0 0 0 0 1 0 1 1 1 1 0 1 0 0
+ 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  12.0
+number of iterations:  12
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  100
+Option:  0.1
+execution time taken:  75.74481272697449
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 0 1 0 1 0 1 0 0
+ 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 1 1 0 1 0 1 1 1 0
+ 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  124.0
+number of iterations:  21
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  100
+Option:  0.5
+execution time taken:  47.296385765075684
+best state:  [1 1 1 0 0 0 1 0 0 1 1 0 1 1 0 0 1 0 0 1 0 0 1 1 1 0 1 1 1 0 1 1 0 1 0 1 1
+ 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 1 1
+ 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  21.0
+number of iterations:  13
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  100
+Option:  0.9
+execution time taken:  44.090076208114624
+best state:  [1 0 1 0 0 0 1 0 0 0 1 0 0 1 0 1 1 0 0 1 1 0 0 0 0 1 1 1 0 1 0 1 1 0 1 0 1
+ 0 1 1 0 0 1 0 0 1 1 0 1 1 0 0 0 1 1 1 0 1 1 0 0 0 0 0 1 0 1 1 1 1 0 1 0 0
+ 0 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  12.0
+number of iterations:  12
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  100
+Option:  0.1
+execution time taken:  67.64721584320068
+best state:  [1 0 1 1 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 1 1
+ 0 0 0 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0]
+best fitness:  133.0
+number of iterations:  19
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  100
+Option:  0.5
+execution time taken:  134.44221115112305
+best state:  [1 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 0 0 1 1 1 1 1
+ 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  138.0
+number of iterations:  37
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  100
+Option:  0.9
+execution time taken:  73.73971486091614
+best state:  [0 1 0 1 1 0 1 0 0 0 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0
+ 1 1 0 1 0 0 1 0 1 1 1 0 0 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 1 0
+ 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 0 0 1 1 0 0 0 0 0 1]
+best fitness:  115.0
+number of iterations:  20
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  100
+Option:  0.1
+execution time taken:  57.74669432640076
+best state:  [1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1
+ 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1
+ 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1]
+best fitness:  86.0
+number of iterations:  16
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  100
+Option:  0.5
+execution time taken:  123.64547204971313
+best state:  [1 0 1 0 1 0 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 0 1 0 1
+ 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 1 0 1 0
+ 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 1 0 1 0 1 0]
+best fitness:  87.0
+number of iterations:  34
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  100
+Option:  0.9
+execution time taken:  40.75608015060425
+best state:  [1 0 0 0 0 1 0 1 1 0 1 0 0 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 0 1 1 0 0 1 1 0 0
+ 1 1 1 1 0 0 1 0 1 0 0 1 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 0 1 0 1 0 0 1 0 1
+ 0 1 0 0 1 0 1 0 1 0 1 0 1 1 0 0 0 1 0 1 0 1 0 0 1 0]
+best fitness:  71.0
+number of iterations:  11
+{'one max': {0.1: {'iterations': [12, 15, 17, 17], 'time_taken': [3.7669622898101807, 13.432950019836426, 33.85162878036499, 60.267569065093994]}, 0.5: {'iterations': [17, 20, 26, 28], 'time_taken': [4.0539870262146, 17.907306432724, 52.24563121795654, 100.2662148475647]}, 0.9: {'iterations': [21, 49, 75, 83], 'time_taken': [5.059068918228149, 44.69477820396423, 153.85644507408142, 303.29679822921753]}}, 'four peaks': {0.1: {'iterations': [14, 15, 16, 21], 'time_taken': [3.4462218284606934, 13.280766010284424, 32.11305809020996, 75.20909285545349]}, 0.5: {'iterations': [16, 26, 22, 13], 'time_taken': [4.9681479930877686, 24.02988886833191, 45.0932092666626, 47.04503297805786]}, 0.9: {'iterations': [11, 13, 11, 12], 'time_taken': [2.5752158164978027, 12.696483850479126, 22.707023859024048, 43.88672113418579]}}, 'six peaks': {0.1: {'iterations': [13, 15, 16, 21], 'time_taken': [2.9503400325775146, 13.377042055130005, 32.14871907234192, 75.74481272697449]}, 0.5: {'iterations': [15, 26, 22, 13], 'time_taken': [3.5049588680267334, 23.85796618461609, 45.439526081085205, 47.296385765075684]}, 0.9: {'iterations': [11, 13, 11, 12], 'time_taken': [2.5413403511047363, 11.886739015579224, 22.713064908981323, 44.090076208114624]}}, 'continuous peaks': {0.1: {'iterations': [16, 13, 16, 19], 'time_taken': [3.6548447608947754, 11.769879817962646, 32.5120849609375, 67.64721584320068]}, 0.5: {'iterations': [17, 30, 24, 37], 'time_taken': [3.915557861328125, 27.29568886756897, 48.94344997406006, 134.44221115112305]}, 0.9: {'iterations': [20, 13, 11, 20], 'time_taken': [5.018907308578491, 11.92090106010437, 22.723171949386597, 73.73971486091614]}}, 'flip flop': {0.1: {'iterations': [14, 16, 23, 16], 'time_taken': [3.4206557273864746, 14.604231834411621, 47.16223621368408, 57.74669432640076]}, 0.5: {'iterations': [20, 27, 31, 34], 'time_taken': [5.155511856079102, 24.733121871948242, 63.53093671798706, 123.64547204971313]}, 0.9: {'iterations': [13, 15, 18, 11], 'time_taken': [3.0906429290771484, 13.945217609405518, 37.54066491127014, 40.75608015060425]}}, 'input_sizes': [25, 50, 75, 100]}
+2021-03-11 21:22:27.613 Python[1584:14273149] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to (null)
+saving figure....
+saving figure....
+saving figure....
+saving figure....
+saving figure....
+(env) ➜  project-2 git:(master) ✗
+
+
+
+######## genetic mutation prob results
+(env) ➜  project-2 git:(master) ✗ python3 genetic_perf.py
+####################################### New input size  25  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.1
+Traceback (most recent call last):
+  File "/Users/mattharris/Desktop/OMSCS/cs-7641-machine-learning/project-2/genetic_perf.py", line 50, in <module>
+    best_state, best_fitness, fitness_curve = genetic(
+  File "/Users/mattharris/Desktop/OMSCS/cs-7641-machine-learning/project-2/algos/genetic.py", line 6, in get_genetic
+    best_state, best_fitness, fitness_curve = mlrose.genetic_alg(
+  File "/Users/mattharris/Desktop/OMSCS/cs-7641-machine-learning/project-2/env/lib/python3.9/site-packages/mlrose_hiive/algorithms/ga.py", line 117, in genetic_alg
+    raise Exception("""pop_size must be a positive integer.""")
+Exception: pop_size must be a positive integer.
+(env) ➜  project-2 git:(master) ✗ python3 genetic_perf.py
+####################################### New input size  25  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.1
+execution time taken:  1.3640990257263184
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  25.0
+number of iterations:  111
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.3
+execution time taken:  1.3990769386291504
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  25.0
+number of iterations:  109
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.5
+execution time taken:  1.3643560409545898
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  25.0
+number of iterations:  111
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  25
+Option:  0.9
+execution time taken:  1.3859968185424805
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  25.0
+number of iterations:  110
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  25
+Option:  0.1
+execution time taken:  1.4412779808044434
+best state:  [1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  46.0
+number of iterations:  119
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  25
+Option:  0.3
+execution time taken:  1.5859692096710205
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  131
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  25
+Option:  0.5
+execution time taken:  1.4956939220428467
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  120
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  25
+Option:  0.9
+execution time taken:  1.3225619792938232
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  104
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  25
+Option:  0.1
+execution time taken:  1.5632829666137695
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  130
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  25
+Option:  0.3
+execution time taken:  1.4541382789611816
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  119
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  25
+Option:  0.5
+execution time taken:  1.4077608585357666
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  113
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  25
+Option:  0.9
+execution time taken:  1.5196352005004883
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  118
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  25
+Option:  0.1
+execution time taken:  2.0675110816955566
+best state:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1]
+best fitness:  46.0
+number of iterations:  157
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  25
+Option:  0.3
+execution time taken:  1.9718542098999023
+best state:  [1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  46.0
+number of iterations:  149
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  25
+Option:  0.5
+execution time taken:  1.9842219352722168
+best state:  [1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  46.0
+number of iterations:  147
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  25
+Option:  0.9
+execution time taken:  2.4291388988494873
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0]
+best fitness:  46.0
+number of iterations:  164
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  25
+Option:  0.1
+execution time taken:  3.203320026397705
+best state:  [0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0]
+best fitness:  22.0
+number of iterations:  115
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  25
+Option:  0.3
+execution time taken:  3.4482831954956055
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  24.0
+number of iterations:  142
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  25
+Option:  0.5
+execution time taken:  2.5181238651275635
+best state:  [1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1]
+best fitness:  22.0
+number of iterations:  116
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  25
+Option:  0.9
+execution time taken:  3.2508068084716797
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  24.0
+number of iterations:  149
+####################################### New input size  50  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  50
+Option:  0.1
+execution time taken:  1.5287702083587646
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  50.0
+number of iterations:  122
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  50
+Option:  0.3
+execution time taken:  1.4980521202087402
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  50.0
+number of iterations:  117
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  50
+Option:  0.5
+execution time taken:  1.5093867778778076
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  50.0
+number of iterations:  116
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  50
+Option:  0.9
+execution time taken:  1.5767097473144531
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  50.0
+number of iterations:  118
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  50
+Option:  0.1
+execution time taken:  3.245598077774048
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  223
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  50
+Option:  0.3
+execution time taken:  2.1333351135253906
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  151
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  50
+Option:  0.5
+execution time taken:  2.3088760375976562
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  166
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  50
+Option:  0.9
+execution time taken:  2.127052068710327
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  144
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  50
+Option:  0.1
+execution time taken:  3.189965009689331
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  223
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  50
+Option:  0.3
+execution time taken:  2.19278621673584
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  151
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  50
+Option:  0.5
+execution time taken:  2.45770525932312
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  166
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  50
+Option:  0.9
+execution time taken:  2.1362056732177734
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  144
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  50
+Option:  0.1
+execution time taken:  9.274333000183105
+best state:  [0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  94.0
+number of iterations:  564
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  50
+Option:  0.3
+execution time taken:  5.005708694458008
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  291
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  50
+Option:  0.5
+execution time taken:  5.835114002227783
+best state:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 1 1 1 1 1 1]
+best fitness:  94.0
+number of iterations:  336
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  50
+Option:  0.9
+execution time taken:  3.5452489852905273
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 0 0 0 0 0 0]
+best fitness:  94.0
+number of iterations:  210
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  50
+Option:  0.1
+execution time taken:  4.554317951202393
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1
+ 0 1 0 1 0 0 1 0 1 0 1 0 1]
+best fitness:  46.0
+number of iterations:  144
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  50
+Option:  0.3
+execution time taken:  4.17958402633667
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1
+ 0 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  46.0
+number of iterations:  131
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  50
+Option:  0.5
+execution time taken:  4.079857110977173
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1
+ 0 1 0 0 1 0 1 0 1 0 1 0 1]
+best fitness:  46.0
+number of iterations:  125
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  50
+Option:  0.9
+execution time taken:  6.614231109619141
+best state:  [0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+ 0 1 0 1 0 1 1 0 1 0 1 0 1]
+best fitness:  47.0
+number of iterations:  199
+####################################### New input size  75  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  75
+Option:  0.1
+execution time taken:  1.7374458312988281
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  75.0
+number of iterations:  129
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  75
+Option:  0.3
+execution time taken:  1.9182970523834229
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  75.0
+number of iterations:  129
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  75
+Option:  0.5
+execution time taken:  1.8249149322509766
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  75.0
+number of iterations:  127
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  75
+Option:  0.9
+execution time taken:  1.855755090713501
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  75.0
+number of iterations:  125
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  75
+Option:  0.1
+execution time taken:  4.23749566078186
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  272
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  75
+Option:  0.3
+execution time taken:  3.516145944595337
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  223
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  75
+Option:  0.5
+execution time taken:  3.8682620525360107
+best state:  [1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  229
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  75
+Option:  0.9
+execution time taken:  3.3543789386749268
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  207
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  75
+Option:  0.1
+execution time taken:  4.281962156295776
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  272
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  75
+Option:  0.3
+execution time taken:  3.595719337463379
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  223
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  75
+Option:  0.5
+execution time taken:  3.9587740898132324
+best state:  [1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  229
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  75
+Option:  0.9
+execution time taken:  3.418917179107666
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  207
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  75
+Option:  0.1
+execution time taken:  5.211354970932007
+best state:  [1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+best fitness:  141.0
+number of iterations:  281
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  75
+Option:  0.3
+execution time taken:  7.971461296081543
+best state:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  141.0
+number of iterations:  423
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  75
+Option:  0.5
+execution time taken:  5.8149449825286865
+best state:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  141.0
+number of iterations:  292
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  75
+Option:  0.9
+execution time taken:  4.909872055053711
+best state:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+ 1]
+best fitness:  141.0
+number of iterations:  253
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  75
+Option:  0.1
+execution time taken:  6.017090082168579
+best state:  [0 1 0 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+ 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 0 1 0 1 0 1
+ 0]
+best fitness:  68.0
+number of iterations:  144
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  75
+Option:  0.3
+execution time taken:  8.937106132507324
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1
+ 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1
+ 0]
+best fitness:  69.0
+number of iterations:  159
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  75
+Option:  0.5
+execution time taken:  8.875978946685791
+best state:  [0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0
+ 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 1 0 1 0 1 1 0 1 1 0 1 0 1 0 1 0 1 0 1
+ 0]
+best fitness:  68.0
+number of iterations:  164
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  75
+Option:  0.9
+execution time taken:  7.069306135177612
+best state:  [0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1
+ 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 1
+ 0]
+best fitness:  68.0
+number of iterations:  159
+####################################### New input size  100  ##############################################
+----------------------------------New Problem  one max  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  100
+Option:  0.1
+execution time taken:  2.038235902786255
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  100.0
+number of iterations:  133
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  100
+Option:  0.3
+execution time taken:  2.0116539001464844
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  100.0
+number of iterations:  134
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  100
+Option:  0.5
+execution time taken:  2.0734498500823975
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  100.0
+number of iterations:  135
+___________New Option_____________
+Optimization Problem:  one max
+Input size:  100
+Option:  0.9
+execution time taken:  2.1478981971740723
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  100.0
+number of iterations:  136
+----------------------------------New Problem  four peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  100
+Option:  0.1
+execution time taken:  12.582603931427002
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  189.0
+number of iterations:  456
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  100
+Option:  0.3
+execution time taken:  10.445287942886353
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  189.0
+number of iterations:  297
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  100
+Option:  0.5
+execution time taken:  5.386139869689941
+best state:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  100.0
+number of iterations:  233
+___________New Option_____________
+Optimization Problem:  four peaks
+Input size:  100
+Option:  0.9
+execution time taken:  7.191358804702759
+best state:  [1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  189.0
+number of iterations:  241
+----------------------------------New Problem  six peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  100
+Option:  0.1
+execution time taken:  17.301061868667603
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  189.0
+number of iterations:  456
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  100
+Option:  0.3
+execution time taken:  5.584632873535156
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  189.0
+number of iterations:  297
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  100
+Option:  0.5
+execution time taken:  5.943317890167236
+best state:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  100.0
+number of iterations:  233
+___________New Option_____________
+Optimization Problem:  six peaks
+Input size:  100
+Option:  0.9
+execution time taken:  4.669507026672363
+best state:  [1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  189.0
+number of iterations:  241
+----------------------------------New Problem  continuous peaks  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  100
+Option:  0.1
+execution time taken:  6.538927793502808
+best state:  [0 0 0 0 1 1 0 1 0 0 0 1 1 0 1 0 1 1 1 0 1 1 1 0 0 0 0 0 1 1 0 1 1 0 1 1 1
+ 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  155.0
+number of iterations:  250
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  100
+Option:  0.3
+execution time taken:  7.284459829330444
+best state:  [0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+best fitness:  189.0
+number of iterations:  308
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  100
+Option:  0.5
+execution time taken:  5.6654181480407715
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1]
+best fitness:  182.0
+number of iterations:  247
+___________New Option_____________
+Optimization Problem:  continuous peaks
+Input size:  100
+Option:  0.9
+execution time taken:  15.017579793930054
+best state:  [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0]
+best fitness:  189.0
+number of iterations:  653
+----------------------------------New Problem  flip flop  ------------------------------------------
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  100
+Option:  0.1
+execution time taken:  8.50930118560791
+best state:  [1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+ 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 1 0 1 0 0 1
+ 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  92.0
+number of iterations:  159
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  100
+Option:  0.3
+execution time taken:  10.553868055343628
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1
+ 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 1
+ 0 1 0 1 0 1 0 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  92.0
+number of iterations:  193
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  100
+Option:  0.5
+execution time taken:  9.312703847885132
+best state:  [1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0
+ 1 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+ 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  92.0
+number of iterations:  170
+___________New Option_____________
+Optimization Problem:  flip flop
+Input size:  100
+Option:  0.9
+execution time taken:  10.6405508518219
+best state:  [0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+ 1 0 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0
+ 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]
+best fitness:  89.0
+number of iterations:  196
+{'one max': {0.1: {'iterations': [111, 122, 129, 133], 'time_taken': [1.3640990257263184, 1.5287702083587646, 1.7374458312988281, 2.038235902786255]}, 0.3: {'iterations': [109, 117, 129, 134], 'time_taken': [1.3990769386291504, 1.4980521202087402, 1.9182970523834229, 2.0116539001464844]}, 0.5: {'iterations': [111, 116, 127, 135], 'time_taken': [1.3643560409545898, 1.5093867778778076, 1.8249149322509766, 2.0734498500823975]}, 0.9: {'iterations': [110, 118, 125, 136], 'time_taken': [1.3859968185424805, 1.5767097473144531, 1.855755090713501, 2.1478981971740723]}}, 'four peaks': {0.1: {'iterations': [119, 223, 272, 456], 'time_taken': [1.4412779808044434, 3.245598077774048, 4.23749566078186, 12.582603931427002]}, 0.3: {'iterations': [131, 151, 223, 297], 'time_taken': [1.5859692096710205, 2.1333351135253906, 3.516145944595337, 10.445287942886353]}, 0.5: {'iterations': [120, 166, 229, 233], 'time_taken': [1.4956939220428467, 2.3088760375976562, 3.8682620525360107, 5.386139869689941]}, 0.9: {'iterations': [104, 144, 207, 241], 'time_taken': [1.3225619792938232, 2.127052068710327, 3.3543789386749268, 7.191358804702759]}}, 'six peaks': {0.1: {'iterations': [130, 223, 272, 456], 'time_taken': [1.5632829666137695, 3.189965009689331, 4.281962156295776, 17.301061868667603]}, 0.3: {'iterations': [119, 151, 223, 297], 'time_taken': [1.4541382789611816, 2.19278621673584, 3.595719337463379, 5.584632873535156]}, 0.5: {'iterations': [113, 166, 229, 233], 'time_taken': [1.4077608585357666, 2.45770525932312, 3.9587740898132324, 5.943317890167236]}, 0.9: {'iterations': [118, 144, 207, 241], 'time_taken': [1.5196352005004883, 2.1362056732177734, 3.418917179107666, 4.669507026672363]}}, 'continuous peaks': {0.1: {'iterations': [157, 564, 281, 250], 'time_taken': [2.0675110816955566, 9.274333000183105, 5.211354970932007, 6.538927793502808]}, 0.3: {'iterations': [149, 291, 423, 308], 'time_taken': [1.9718542098999023, 5.005708694458008, 7.971461296081543, 7.284459829330444]}, 0.5: {'iterations': [147, 336, 292, 247], 'time_taken': [1.9842219352722168, 5.835114002227783, 5.8149449825286865, 5.6654181480407715]}, 0.9: {'iterations': [164, 210, 253, 653], 'time_taken': [2.4291388988494873, 3.5452489852905273, 4.909872055053711, 15.017579793930054]}}, 'flip flop': {0.1: {'iterations': [115, 144, 144, 159], 'time_taken': [3.203320026397705, 4.554317951202393, 6.017090082168579, 8.50930118560791]}, 0.3: {'iterations': [142, 131, 159, 193], 'time_taken': [3.4482831954956055, 4.17958402633667, 8.937106132507324, 10.553868055343628]}, 0.5: {'iterations': [116, 125, 164, 170], 'time_taken': [2.5181238651275635, 4.079857110977173, 8.875978946685791, 9.312703847885132]}, 0.9: {'iterations': [149, 199, 159, 196], 'time_taken': [3.2508068084716797, 6.614231109619141, 7.069306135177612, 10.6405508518219]}}, 'input_sizes': [25, 50, 75, 100]}
+(env) ➜  project-2 git:(master) ✗
