@@ -1,7 +1,7 @@
 import mlrose_hiive as mlrose
 import numpy as np 
 
-def get_hill_climb(problem, restarts=0):
+def get_hill_climb(problem, restarts=30):
     
     best_state, best_fitness, fitness_curve = mlrose.random_hill_climb(
         problem,

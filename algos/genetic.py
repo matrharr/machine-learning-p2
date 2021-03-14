@@ -1,7 +1,7 @@
 import mlrose_hiive as mlrose
 import numpy as np 
 
-def get_genetic(problem, pop_size=200, mutation_prob=0.1):
+def get_genetic(problem, pop_size=300, mutation_prob=0.4):
     
     best_state, best_fitness, fitness_curve = mlrose.genetic_alg(
         problem,

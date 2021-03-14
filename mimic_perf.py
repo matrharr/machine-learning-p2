@@ -12,7 +12,7 @@ from optimization_objects.six_peaks import get_six_peaks
 from visualization.plot_graphs import plot_mimic_keep_pct
 
 input_sizes = [
-    25, 50, 75, 100
+    25, 50, 75, 100, 200
 ]
 
 opt_probs = [

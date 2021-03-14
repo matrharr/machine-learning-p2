@@ -209,3 +209,5 @@ def plot_mimic_keep_pct(data):
             print('saving figure....')
             fig.savefig(file_path)
             plt.show()
+
+
