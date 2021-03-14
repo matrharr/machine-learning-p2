@@ -1,6 +1,6 @@
-## Supervised Learning
+## Random Optimization
 
-The code for this project can be found [here](https://github.com/matrharr/machine-learning-p1).
+The code for this project can be found [here](https://github.com/matrharr/machine-learning-p2).
 
 ### Running code
 - Activate your virtualenv.

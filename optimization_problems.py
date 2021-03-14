@@ -20,8 +20,7 @@ from optimization_objects.six_peaks import get_six_peaks
 from visualization.plot_graphs import plot_iterations_vs_probsize
 
 input_sizes = [
-    # 25, 50, 75, 100
-    300
+    25, 50, 75, 100, 300
 ]
 
 opt_probs = [
@@ -34,9 +33,9 @@ opt_probs = [
 ]
 
 algo_dict = {
-    # 'hill_climb': get_hill_climb,
-    # 'genetic': get_genetic,
-    # 'mimic': get_mimic,
+    'hill_climb': get_hill_climb,
+    'genetic': get_genetic,
+    'mimic': get_mimic,
     'sim_ann': get_sim_ann
 }
 
